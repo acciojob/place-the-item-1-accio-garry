@@ -1,2 +1,16 @@
+*{
+	margin:0;
+	padding:0;
+}
 
-/* Your CSS Code here. */
+
+.item{
+	height:100px;
+	width:100px;
+	background-color:red;
+}
+.holder{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
